@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+}
+.cointoss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+}
+.description {
+  font-family: 'Roboto';
+  color: #334155;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.button {
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: #f9d423;
+  color: #a35200;
+  border: 0px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.result-total {
+  font-family: 'Roboto';
+  color: #475569;
+}
+.result-heads {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-left: 20px;
+}
+.result-tails {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-left: 20px;
+}
